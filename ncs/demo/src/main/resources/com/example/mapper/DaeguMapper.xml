@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.DaeguMapper">
+<insert id="insertDaeguinfo">
+insert into Daegu(
+du_atmsTm,
+du_dist,
+du_dsrcLinkSn,
+du_endFacNm,
+du_linkSpeed,
+du_linkTime,
+du_roadNm,
+du_sectionInfoCd,
+du_sectionNm,
+du_startFacNm,
+du_stdLinkId
+)
+value(
+#{du_atmsTm},
+#{du_dist},
+#{du_dsrcLinkSn},
+#{du_endFacNm},
+#{du_linkSpeed},
+#{du_linkTime},
+#{du_roadNm},
+#{du_sectionInfoCd},
+#{du_sectionNm},
+#{du_startFacNm},
+#{du_stdLinkId}
+)
+</insert>
+</mapper>

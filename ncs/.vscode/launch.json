@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TsAPIController",
+            "request": "launch",
+            "mainClass": "com.example.api.TsAPIController",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Launch ApiExplorer",
+            "request": "launch",
+            "mainClass": "com.example.api.ApiExplorer",
+            "projectName": "demo"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.DemoApplication",
+            "projectName": "demo",
+            "args": ""
+        }
+    ]
+}

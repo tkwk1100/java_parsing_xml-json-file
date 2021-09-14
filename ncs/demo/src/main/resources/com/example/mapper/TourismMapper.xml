@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.TourismMapper">
+    <insert id="insertTourism">
+    insert into tourist spot (
+        t_trsmicNm,
+        t_trsmicLc,
+        t_ctprvnNm,
+        t_signguNm,
+        t_trsmicIntrcn,
+        t_adiSvcInfo,
+        t_rstde,
+        t_summerOperOpenHhmm,
+        t_summerOperCloseHhmm,
+        t_winterOperOpenHhmm,
+        t_winterOperCloseHhmm,
+        t_avrgWorkCo,
+        t_engGuidanceYn,
+        t_jpGuidanceYn,
+        t_chGuidanceYn,
+        t_guidanceFggg,
+        t_guidancePhoneNumber,
+        t_rdnmadr,
+        t_lnmadr,
+        t_operInstitutionNm,
+        t_homepageUrl,
+        t_latitude,
+        t_longitude,
+        t_referenceDate,
+        t_instt_code,
+        t_instt_nm
+    )
+    value(
+        #{t_trsmicNm},
+        #{t_trsmicLc},
+        #{t_ctprvnNm},
+        #{t_signguNm},
+        #{t_trsmicIntrcn},
+        #{t_adiSvcInfo},
+        #{t_rstde},
+        #{t_summerOperOpenHhmm},
+        #{t_summerOperCloseHhmm},
+        #{t_winterOperOpenHhmm},
+        #{t_winterOperCloseHhmm},
+        #{t_avrgWorkCo},
+        #{t_engGuidanceYn},
+        #{t_jpGuidanceYn},
+        #{t_chGuidanceYn},
+        #{t_guidanceFggg},
+        #{t_guidancePhoneNumber},
+        #{t_rdnmadr},
+        #{t_lnmadr},
+        #{t_operInstitutionNm},
+        #{t_homepageUrl},
+        #{t_latitude},
+        #{t_longitude},
+        #{t_referenceDate},
+        #{t_instt_code},
+        #{t_instt_nm}
+    )
+    </insert>
+</mapper>
